@@ -9,29 +9,31 @@
 </head>
 <body>
 	<header>
-		<ul>
-		<li id="nombre">Start bootstrap</li>
-		<div class="menu">
-		<li>portfolio</li>
-		<li>about</li>
-		<li>contact</li>
-		</div>
-		</ul>
+		<nav></nav>
+			<ul>
+			<li id="nombre">Start bootstrap</li>
+			<div class="menu">
+			<li>portfolio</li>
+			<li>about</li>
+			<li>contact</li>
+			</div>
+			</ul>
+		</nav>
 	</header>
 
 <main>
 	<div class="star"> 
 		<img src="assets/images/profile.png" alt="">
-		<h1>Start bootstrap</h1>
-		<h2></h2>
-		<i class="fa fa-star" aria-hidden="true"></i>
+		<h1>Start bootstrap <br>
+		<h2></h2><br>
+		<i class="fa fa-star" aria-hidden="true"></i></h1>
 		<p>Web Developer - Graphic Artist - User Experience Designer</p>
 	</div>
 
 	<div class="portafolio">
 		<div class="uno">
-		<h1>PORTFOLIO</h1>
-		<i class="fa fa-star" aria-hidden="true"></i>
+		<h1>PORTFOLIO <br>
+		<i class="fa fa-star" aria-hidden="true"></i></h1>
 	</div>
 	
 	<figure class="seisfotos">
@@ -44,8 +46,8 @@
 		<img src="assets/images/portfolio/submarine.png" class="foto">
 	</figure>
 	
-	<div class="about"><h1>ABOUT</h1>
-		<i class="fa fa-star" aria-hidden="true"></i>
+	<div class="about"><h1>ABOUT <br>
+		<i class="fa fa-star" aria-hidden="true"></i></h1>
 		<p class="left">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
 		<p class="right">
 		Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
@@ -54,42 +56,59 @@
 	</div>
 
 
-<div class="contact"> 
-	<h1>Contactme</h1>
-	<i class="fa fa-star" aria-hidden="true"></i>
-	<div>Name</div>
-	<hr>
-	<div>Email Address</div>
-	<hr>
-	<div>Phone Number</div>
-	<hr>
-	<div>Message</div>
-	<button type="submit"><span>Send</span></button>
+	<!-- <div class="contact"> 
+		<h1>Contactme</h1>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<div>Name</div>
+		<hr>
+		<div>Email Address</div>
+		<hr>
+		<div>Phone Number</div>
+		<hr>
+		<div>Message</div>
+		<button type="submit"><span>Send</span></button>
+	</div> /!-->
+	<div class="contact"></div>
+		<nav>
+			<h1>Contactme <br>
+			<i class="fa fa-star" aria-hidden="true"></i></h1>
+	
+			<form action="/action_page.php">
+  			Name:<br>
+  			<input type="text" name="name" value=""><br>
+
+  			Email Address:<br>
+  			<input type="text" name="email" value=""><br>
+  			<form action="/	action_page.php">
+  			Phone Number:<br>
+  			<input type="text" name="phone" value=""><br>
+  			<form action="/action_page.php">
+  			Message:<br>
+  			<input type="text" name="message" value=""><br><br>
+			<input type="submit" value="Send">
+			</form>
 	</div>
+	</nav>
 </main>
 
 <footer>
-	<div>
-	<h1>LOCATION</h1>
-	<p>3481 Melrose Place 
-	Beverly Hills, CA 90210</p>
-	</div>
-	<div>
-	<h1>AROUND THE WEB</h1>
-	 <div class="logos">
-	 	<i class="fa fa-facebook" aria-hidden="true"></i>
-	 	<i class="fa fa-google-plus" aria-hidden="true"></i>
-	 	<i class="fa fa-twitter" aria-hidden="true"></i>
-	 </div>
-	</div>
-		<div class="about">
-		<h1></h1>
-		<p></p>
-
+	<nav>
 		
+		<div class="buno">
+				<h1>LOCATION</h1>
+				<p>3481 Melrose lace 
+				Beverly Hills, CA 90210</p>
 		</div>
-
+		<div class="bdos">
+				<h1>AROUND THE WEB</h1>
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+	 			<i class="fa fa-google-plus" aria-hidden="true"></i>
+	 			<i class="fa fa-twitter" aria-hidden="true"></i>
+	 	</div>
+	 	<div class="btres">
+	 		<h1>ABOUT FREELANCER</h1><p>Freelance is a free use, open source Bootstrap theme created by <a href="#">Star Bootstrap</a>.</p>
+	 	</div>
+	</nav>
 </footer>
-	
 </body>
 </html>

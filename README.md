@@ -2,13 +2,13 @@
 
  Se propuso como objetivo replicar el maquetado del sitio de Freelancer (docs/fullpage.png) y para completar este reto se modifico HTML & CSS.
 
-Se dividio la maqueta html en 3 secciones:
+Se dividio la maqueta html en 3 principales secciones:
 Principal: <header>
 Cuerpo: <main>
 Pie de página: <footer>
 
-En header se posiono una lista con ul
-para colocar el menu superior de la página web.
+En header se posicionó una lista con ul
+para colocar el menú superior de la página web.
 
 Main contiene cuatros bloques con su respectivo contenido, estos fueron nombrados según su título:
 
@@ -23,24 +23,11 @@ Para finalizar se encuentra Footer, pie de página, seccionado en tres bloques p
 
   
 
-## Consideraciones
+ A considerar:
 
-
-* Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
-
-
-
-
-  
-
-
-## Flujo de trabajo
+Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
 
 
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
 
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/freelancer.git
-   ```
+ 

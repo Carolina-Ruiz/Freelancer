@@ -3,6 +3,12 @@
 	margin: 0;
 	padding: 0;
 }
+body h1 {
+	font-family: 'Montserrat', sans-serif;;
+}
+body p {
+	font-family: 'Lato', sans-serif;
+}
 
 header {
 	width: 1283px;
@@ -79,6 +85,16 @@ p {
 	background-image: 
 	
 }
+.uno h1 {
+	text-align: center; 
+	margin-top: 150px;
+}
+
+.uno .fa.fa-star {
+	font-size: 33px; 
+	color: black;
+}
+
 
 .seisfotos {
 	max-width: 100%;  /*tenga como maximo*/
@@ -103,6 +119,11 @@ p {
 	background-color: #18bc9c;
 	color: white;
 }
+.about h1{
+	text-align: center; 
+	margin-top: 150px;
+}
+
 p.left, p.right {
 	width: 280px;
 	height: 90px;
@@ -121,7 +142,7 @@ p.left, p.right {
 	border: solid;
 	height: 49px;
 	width: 212px
-	margin-left: 100px;
+	margin-right: 100px;
 }
 
 .descarga .fa.fa-download {
@@ -129,18 +150,63 @@ p.left, p.right {
 	color: white;
 }
 .contact {
-	width:928px;
-	height: 410px
-	top: 3160px;
-	right: 931px;
 	bottom: 3570px;
 	background-color: white;
+	height: 109px;
+	top: 3160px;
+	right: 931px;
+	width:928px;
+}
+
+.contact nav {
+	text-align: center;
+}
+}
+
+.contact h1 .fa.fa-star {
+	color: black;
+	font-size: 33px; 
 }
 
 
 footer {
 	background-color: #2F3E52;
-	height: 30px;
+	height: 417px;
+	margin-top: 481px;
 	width: 100%;
 }
-	
+footer nav {
+	color: white;
+	display: inline-block;
+	list-style: none;
+	line-height: 40px;
+	width: 100px;
+}
+
+.buno {
+	float: left;
+	margin-left: 51px;
+	margin-top: 82px; 
+}
+
+
+.bdos {
+	float: left;
+	margin-left: 451px;
+	margin-top: -158px; 
+}
+
+.btres {
+	float: left;
+	margin-left: 748px;
+	margin-top: -158px; 
+
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	color: #18bc9c;
+}
